@@ -19,3 +19,27 @@ for (int i=1; i<=6;i++){
             System.out.println( i+ "+" +x+ "=6");
         }
 }
+
+
+
+
+	
+for (int i=1; i<6;i++){
+			System.out.println( i+ "+" +(6-i)+ "=6");
+		}
+
+
+
+
+	
+int num;
+		int y;
+		int ans = 0;
+		for (y = 1; y <= 10; y++) {
+			num = 1;
+			for (int x = 1; x <= y; x++) {
+				ans += num;
+				num++;
+			}
+		}
+		System.out.println(ans);
