@@ -5,7 +5,7 @@ public class 문제 {
 	        String str = "41389";
 	        int sum = 0;
 	        for (int i=0; i <str.length(); i++){
-	            sum = sum+ (str.charAt(i));
+	            sum = sum+ (str.charAt(int i));
 	        }
 	        System.out.println("sum= "+sum);
 	    }
