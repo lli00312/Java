@@ -43,3 +43,34 @@ int num;
 			}
 		}
 		System.out.println(ans);
+
+
+
+
+
+
+int num = 1;
+		int sum = 0;
+		while (true) {
+			
+
+			if (num % 2 != 0) {
+				sum = sum + num;
+			}
+			else
+				sum = sum - num;
+			
+			
+			if (sum >= 100) {
+				break;
+			}
+			num++;
+		}
+		
+		System.out.println(num);
+		
+
+
+
+
+	
